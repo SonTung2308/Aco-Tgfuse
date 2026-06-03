@@ -126,8 +126,8 @@ def train(i, original_imgs_path):
             image_paths = image_set[batch * batch_size:(batch * batch_size + batch_size)]
             # directory1 = "/data/Disk_B/KAIST-RGBIR/visible"
             # directory2 = "/data/Disk_B/KAIST-RGBIR/lwir"
-            directory1 = "D:\\file\paper\dataset\dataset\\train\\vi"
-            directory2 = "D:\\file\paper\dataset\dataset\\train\ir"
+            directory1 = "/home/iec/vstung/TGFuse/dataset_flat/train/vi"
+            directory2 = "/home/iec/vstung/TGFuse/dataset_flat/train/ir"
             paths1 = []
             paths2 = []
             for path in image_paths:

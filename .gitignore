@@ -1,0 +1,119 @@
+# ── Comparison / baseline models (not part of this paper) ──
+IVIF_ZOO/
+MMIF-CDDFuse/
+MMIF-EMMA/
+PIAFusion/
+SwinFusion/
+TarDAL/
+U2Fusion/
+imagefusion-LRRNet/
+
+# ── Datasets (too large for git) ──
+dataset/
+dataset_flat/
+datasets_eval/
+MSRS/
+
+# ── Model checkpoints ──
+models/
+models_aco_sdmi3/
+models_aco_v5/
+models_aco_v9/
+eval_best_sd/
+eval_best_ssim/
+eval_epoch3/
+eval_epoch5/
+*.model
+*.pth
+*.pt
+*.ckpt
+
+# ── Experiment & result directories ──
+ablation_results/
+paper_results/
+paper_results_norm/
+final_results/
+standard_test/
+log/
+log_aco/
+figs/
+figures/
+memory/
+
+# ── Python cache ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Logs & PIDs ──
+*.log
+*.pid
+
+# ── Archives & PDFs ──
+*.zip
+*.tar.gz
+*.pdf
+*.bak
+
+# ── Intermediate / draft training scripts ──
+train_v3.py
+train_v4.py
+train_v5.py
+train_v6.py
+train_v7.py
+train_v8*.py
+train_v9.py
+train_v10.py
+train_multi.py
+train_supernet.py
+train_sdmi.py
+train_sdmi2.py
+train_sdmi3.py
+train_sf_push.py
+train_improve.py
+train_baseline.py
+net_aco_v3.py
+net_aco_v4.py
+
+# ── Figure generation & analysis scripts ──
+fig_compare.py
+fig_compare_all.py
+fig_triptych.py
+gen_arch_fig.py
+gen_complexity_fig.py
+gen_paper_figs.py
+make_comparison.py
+make_drawio.py
+make_figures.py
+make_figures_v3.py
+make_tables.py
+build_table.py
+add_ours.py
+compare_models.py
+explore_kaist.py
+pick_best.py
+postproc_search.py
+prepare_dataset.py
+quick_test.py
+debug_nan.py
+download_datasets.py
+eval_external.py
+eval_tta.py
+evaluate.py
+evaluate_v2.py
+evaluate_v3.py
+ablation.py
+ablation_branches.py
+ablation.log
+run_all.sh
+run_all.log
+u2fusion_eval.log
+fusion_supernet.py
+
+# ── Generated outputs ──
+outputs/
+
+# ── Misc ──
+main_r3.tex
+.env
