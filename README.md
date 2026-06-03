@@ -1,8 +1,4 @@
-# ACO-TGFuse — Bộ cải tiến (3 hướng đã bàn)
-
-Thả 7 file này vào `/home/iec/vstung/TGFuse` (cùng cấp với `t2t_vit.py`,
-`loss.py`, `function.py`). Không sửa các file gốc đó.
-
+# ACO-TGFuse — Bộ cải tiến 
 ## File nào làm gì
 
 | File | Vai trò |
